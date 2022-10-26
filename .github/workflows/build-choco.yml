@@ -30,4 +30,4 @@ jobs:
       - name: Show template
         shell: pwsh
         run: |
-          Get-ChildItem "D:\a\pike-chocolatey\pike-chocolatey\pike\" -Recurse | Get-Content
+          Get-ChildItem "D:\a\pike-chocolatey\pike-chocolatey\pike\" -Recurse -File | Get-Content
