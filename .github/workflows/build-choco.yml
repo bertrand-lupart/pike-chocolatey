@@ -30,5 +30,4 @@ jobs:
       - name: Show template
         shell: pwsh
         run: |
-          type D:\a\pike-chocolatey\pike-chocolatey\pike\*
-          type D:\a\pike-chocolatey\pike-chocolatey\pike\tools\*
+          Get-ChildItem "D:\a\pike-chocolatey\pike-chocolatey\pike\" -Recurse | Get-Content
