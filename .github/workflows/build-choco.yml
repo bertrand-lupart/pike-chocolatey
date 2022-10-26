@@ -27,3 +27,8 @@ jobs:
         shell: pwsh
         run: |
           choco new pike url="'http://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v8.0.1738-Windows7-x86.msi'"
+      - name: Show template
+        shell: pwsh
+        run: |
+          type "D:\a\pike-chocolatey\pike-chocolatey\pike\*"
+          type "D:\a\pike-chocolatey\pike-chocolatey\pike\tools\*"
